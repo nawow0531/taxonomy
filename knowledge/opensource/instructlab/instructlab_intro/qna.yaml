@@ -9,10 +9,10 @@ document:
   patterns:
     - "knowledge/opensource/instructlab/instructlab_intro/data.md"
 
-document_outline:
-  - "Introduction"
-  - "Features"
-  - "How to Contribute"
+document_outline: |
+  Introduction
+  Features
+  How to Contribute
 
 seed_examples:
   - context: "InstructLab is an open-source project..."
