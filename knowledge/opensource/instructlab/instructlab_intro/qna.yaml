@@ -1,5 +1,8 @@
 version: 3
 
+created_by: "nawow0531@naver.com"
+domain: "opensource"
+
 document:
   repo: "https://github.com/nawow0531/taxonomy"
   commit: "main"
@@ -20,6 +23,7 @@ seed_examples:
         answer: "By forking the repo, creating a new taxonomy topic, and submitting a pull request."
       - question: "What features does InstructLab have?"
         answer: "Taxonomy-based knowledge injection, synthetic data generation, and support for compositional skills."
+
   - context: "InstructLab is useful for extending LLMs."
     questions_and_answers:
       - question: "Who can contribute to InstructLab?"
@@ -55,4 +59,3 @@ seed_examples:
         answer: "In the taxonomy repository on GitHub."
       - question: "How do you add a new topic to the taxonomy?"
         answer: "By creating a new YAML file under the relevant directory and submitting a PR."
-
