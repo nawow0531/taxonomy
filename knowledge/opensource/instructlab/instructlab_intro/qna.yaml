@@ -1,17 +1,16 @@
 version: 3
-topic: instructlab_intro
-type: knowledge
-domain: opensource
-created_by: nawow0531@naver.com
+
 document:
   repo: "https://github.com/nawow0531/taxonomy"
   commit: "main"
   patterns:
     - "knowledge/opensource/instructlab/instructlab_intro/data.md"
+
 document_outline: |
   Introduction
   Features
   How to Contribute
+
 seed_examples:
   - context: "InstructLab is an open-source project..."
     questions_and_answers:
@@ -21,9 +20,39 @@ seed_examples:
         answer: "By forking the repo, creating a new taxonomy topic, and submitting a pull request."
       - question: "What features does InstructLab have?"
         answer: "Taxonomy-based knowledge injection, synthetic data generation, and support for compositional skills."
-  - context: "Contributions improve model knowledge."
+  - context: "InstructLab is useful for extending LLMs."
     questions_and_answers:
       - question: "Who can contribute to InstructLab?"
         answer: "Anyone in the community can contribute."
       - question: "What do you need to submit a contribution?"
         answer: "A fork of the repository and a pull request with new taxonomy topics."
+      - question: "What type of data does InstructLab generate?"
+        answer: "Synthetic data based on taxonomies."
+
+  - context: "Features of InstructLab include SDG and compositional skills."
+    questions_and_answers:
+      - question: "What is SDG in InstructLab?"
+        answer: "SDG stands for Synthetic Data Generation."
+      - question: "Does InstructLab support skills?"
+        answer: "Yes, it supports compositional skills for fine-grained control over LLM behavior."
+      - question: "Can you contribute to SDG?"
+        answer: "Yes, you can contribute patterns and data for SDG."
+
+  - context: "The community can help InstructLab grow."
+    questions_and_answers:
+      - question: "Why contribute to InstructLab?"
+        answer: "To make LLMs more accurate and specialized for specific knowledge domains."
+      - question: "Is InstructLab open-source?"
+        answer: "Yes, it's fully open-source."
+      - question: "Where can you find the InstructLab repository?"
+        answer: "On GitHub under the official or forked repos."
+
+  - context: "InstructLab uses a taxonomy for organizing knowledge."
+    questions_and_answers:
+      - question: "What is a taxonomy in InstructLab?"
+        answer: "A structured set of topics guiding how to generate and inject knowledge into LLMs."
+      - question: "Where is the taxonomy stored?"
+        answer: "In the taxonomy repository on GitHub."
+      - question: "How do you add a new topic to the taxonomy?"
+        answer: "By creating a new YAML file under the relevant directory and submitting a PR."
+
