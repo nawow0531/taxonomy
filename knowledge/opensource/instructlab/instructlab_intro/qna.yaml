@@ -3,14 +3,16 @@ topic: instructlab_intro
 type: knowledge
 domain: opensource
 created_by: nawow0531@naver.com
-document: |
-  InstructLab is an open-source project to extend large language models with community-contributed knowledge and skills.
-document_outline: |
-  Introduction
-  Features
-  How to Contribute
+document:
+  text: |
+    InstructLab is an open-source project to extend large language models with community-contributed knowledge and skills.
+document_outline:
+  text: |
+    Introduction
+    Features
+    How to Contribute
 seed_examples:
-  - question: "What is InstructLab?"
-    answer: "InstructLab is an open-source framework that allows the community to contribute knowledge and skills to large language models."
-  - question: "How can you contribute to InstructLab?"
-    answer: "By forking the repo, creating a new taxonomy topic, and submitting a pull request."
+  - input: "What is InstructLab?"
+    output: "InstructLab is an open-source framework that allows the community to contribute knowledge and skills to large language models."
+  - input: "How can you contribute to InstructLab?"
+    output: "By forking the repo, creating a new taxonomy topic, and submitting a pull request."
