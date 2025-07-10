@@ -1,0 +1,4 @@
+qna:
+  - question: What is InstructLab?
+    answer: InstructLab is a framework to extend language models with community contributed knowledge.
+    topic: knowledge/opensource/instructlab
