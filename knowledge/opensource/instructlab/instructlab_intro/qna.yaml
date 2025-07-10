@@ -4,19 +4,26 @@ type: knowledge
 domain: opensource
 created_by: nawow0531@naver.com
 document:
-  repo: "https://github.com/instructlab/instructlab"
-  commit: "HEAD"
+  repo: "https://github.com/nawow0531/taxonomy"
+  commit: "main"
   patterns:
-    - path: "data.md"
+    - "knowledge/opensource/instructlab/instructlab_intro/data.md"
 document_outline: |
   Introduction
   Features
   How to Contribute
 seed_examples:
-  - context: ""
+  - context: "InstructLab is an open-source project..."
     questions_and_answers:
       - question: "What is InstructLab?"
         answer: "InstructLab is an open-source framework that allows the community to contribute knowledge and skills to large language models."
       - question: "How can you contribute to InstructLab?"
         answer: "By forking the repo, creating a new taxonomy topic, and submitting a pull request."
-
+      - question: "What features does InstructLab have?"
+        answer: "Taxonomy-based knowledge injection, synthetic data generation, and support for compositional skills."
+  - context: "Contributions improve model knowledge."
+    questions_and_answers:
+      - question: "Who can contribute to InstructLab?"
+        answer: "Anyone in the community can contribute."
+      - question: "What do you need to submit a contribution?"
+        answer: "A fork of the repository and a pull request with new taxonomy topics."
