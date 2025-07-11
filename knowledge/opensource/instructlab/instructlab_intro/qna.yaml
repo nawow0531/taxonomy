@@ -7,7 +7,8 @@ document:
   repo: "https://github.com/nawow0531/taxonomy"
   commit: "main"
   patterns:
-    - "knowledge/opensource/instructlab/instructlab_intro/data.md"
+    - path: "knowledge/opensource/instructlab/instructlab_intro/data.md"
+      chunk_word_count: 200
 
 document_outline: |
   Introduction
