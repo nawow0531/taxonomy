@@ -6,9 +6,9 @@ domain: "opensource"
 document:
   repo: "https://github.com/nawow0531/taxonomy"
   commit: "main"
+  chunk_word_count: 200
   patterns:
-    - path: "knowledge/opensource/instructlab/instructlab_intro/data.md"
-      chunk_word_count: 200
+    - "knowledge/opensource/instructlab/instructlab_intro/data.md"
 
 document_outline: |
   Introduction
